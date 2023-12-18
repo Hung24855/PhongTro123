@@ -7,7 +7,7 @@ const Button = ({ text, textColor, bgColor, Icon, onClick, fullWidth }) => {
       onClick={onClick}
       className={`outline-none rounded-md ${
         fullWidth && "w-full"
-      } py-1 px-2 ${textColor} ${bgColor} hover:underline flex items-center justify-center gap-1`}
+      } py-2 px-2 ${textColor} ${bgColor} hover:underline flex items-center justify-center gap-1`}
     >
       {text}
       {Icon && <Icon></Icon>}

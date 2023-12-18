@@ -5,7 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import reduxStore from "./redux";
 import App from "./App";
 import "./index.css";
-
 const { store, persistor } = reduxStore();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
